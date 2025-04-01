@@ -10,16 +10,27 @@
       type="image/x-icon"
     />
     <style>
-        table,
-        th,
-        td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        </style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 20px;
+      }
+      th {
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <table style="width: 100%;">
+    <table style="width: 100%">
+      <caption>
+        This is my table
+      </caption>
       <tr>
         <th>Book Name</th>
         <th>Author Name</th>
@@ -39,6 +50,24 @@
         <td>The Silent Patient</td>
         <td>Alex Michaelides</td>
         <td>Psychological Fiction</td>
+      </tr>
+      <tr>
+        <td colspan="2">Hi how are you * Column span</td>
+        <td>abc</td>
+      </tr>
+      <tr>
+        <td rowspan="2">* Row span</td>
+        <td>pqr</td>
+        <td>abc</td>
+      </tr>
+      <tr>
+        <td>def</td>
+        <td>abc</td>
+      </tr>
+      <tr>
+        <td>lmn</td>
+        <td>def</td>
+        <td>xyz</td>
       </tr>
     </table>
   </body>
