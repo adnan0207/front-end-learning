@@ -1,0 +1,22 @@
+div {
+  background-color: rgb(235, 135, 20);
+  width: 100px;
+  height: 100px;    
+  /* height and width will only work for block level element */
+  /* making it inline thus height and width cannot be applied here */
+  /* display: inline;   */
+  /* using inline block allows us to make then inline element and also use properties like height and width */
+  display: inline-block;
+}
+span {
+    background-color: rgb(29, 183, 218);
+    width: 100px;
+    height: 100px;
+    /* height and width will only work for block level element */
+    /* thus we need to explicitly make it block level to apply height and width */
+    /* Explivitly making it block */
+    /* display: block;          */
+    /* using inline block allows us to make then inline element and also use properties like height and width */
+    display: inline-block;
+
+}
